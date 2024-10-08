@@ -1,44 +1,94 @@
-<html>
+<!DOCTYPE html>
+<html lang="pt-br">
 
 <head>
-
-    <div id="header">
-        <img src="https://static.vecteezy.com/ti/vetor-gratis/p1/2519144-avatar-de-midia-social-gratis-vetor.jpg"
-            width="200px" alt="minha foto">
-        <h4>Ana Clara Costa Luksik Schmidt</h4>
-    </div>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfólio - Ana Clara</title>
 </head>
 
 <body>
-    <div id="corpo">
+    <header class="header">
 
-        <h3>Sobre mim:</h3>
-        <h5>
-            <p>Sou estudante de Ciência da Computação pela Universidade Vila Velha</p>
-        </h5>
+        <section>
 
+            <a href="#home" class="logo"> <!-- Alterado para href="#home" -->
+                <img src="./minha-foto.jpeg" alt="minha foto" class="minha-foto">
+            </a>
+
+            <nav class="navbar">
+                <a href="#home">Home</a> 
+                <a href="#sobre">Sobre mim</a>
+                <a href="#experiencias">Experiências</a>
+                <a href="#contatos">Contatos</a>
+            </nav>
+
+        </section>
+    </header>
+
+    <div class="home-conteiner">
+        <section id="home"> 
+            <div class="content">
+                <h3>
+                    Sou Ana Clara, tenho 19 anos e moro em Vila Velha.
+                        Atualmente estou cursando o 1º período de Ciência da Computação 
+                        pela Universidade Vila Velha.
+                </h3>
+                <p>
+                    No ano de 2023 eu comecei o curso de computação pela FAESA, porém um pouco antes do período 23.1 acabar, 
+                    eu descobri que passei na UFOP - Universidade Federal de Ouro Preto, também em computação. Em setembro de 2023 eu me mudei para Ouro Preto, e no período
+                    do 23.2 eu concluí o 1º período de computação pela UFOP. Porém, por questões pessoais, decidi voltar para o Espírito Santo e 
+                    começar o curso do zero na UVV.
+                </p>
+            </div>
+
+            <section class="sobre" id="sobre">
+                <div class="row">
+                    <div class="conteiner-img">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj_WJbNt7I6UbgV2bneMW1pYPZ3SYNIW0x6Q&s"
+                            alt="programador">
+                    </div>
+
+                    <div class="content">
+                        <h3>Sobre mim</h3>
+                        <p>Enquanto estive em Ouro Preto, estudei a linguagem C, e fiz alguns projetos 
+                            (que infelizmente não consigo colocar aqui por não ter o front-end)
+                        </p>
+                        <p>Por enquanto ainda não sei qual área da tecnologia pretendo me especializar e 
+                            seguir uma carreira, porém a área de Dados me chama bastante atenção. Também gosto do fornt-end, 
+                            por que acho legal conseguir visualizar o trabalho sendo feito.
+                        </p>
+                    </div>
+
+                </div>
+            </section>
+
+        </section>
+
+        <section class="experiencias" id="experiencias">
+            <h2 class="title">Experiências</h2>
+            <p>
+                Por enquanto, no ramo de tecnologia não tenho nenhuma experiência, mas pretendo
+                participar de projetos dentro da própria faculdade, como o InovaWeek e Hackaton, além de 
+                planejar conseguir um estágio a partir do ano que vem. Já tive outros trabalhos, como atendente
+                de farmácia, secretária de dentista, e alguns freelancer.
+            </p>
+
+        </section>
+
+        <section class="contatos" id="contatos">
+            <h2 class="title">Contatos</h2>
+            <p>Entre em contato comigo pelos seguintes meios:</p>
+            <ul>
+                <li>Email: analuksik@gmail.com</li>
+                <li>Telefone: (28)999647808</li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit" target="_blank">linkedin.com/in/anaclara</a></li>
+                <li>GitHub: <a href="https://github.com/analuksik" target="_blank">github.com/analuksik</a></li>
+            </ul>
+        </section>
     </div>
 
-
-
-
-    <a href="https://www.instagram.com/analuksik/">
-        <img src="https://w7.pngwing.com/pngs/490/729/png-transparent-instagram-logo-computer-icons-instagram-neon-purple-text-logo.png"
-            width="50px" alt="">
-    </a>
-
-    <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit">
-        <img src="https://static.vecteezy.com/system/resources/previews/023/986/970/original/linkedin-logo-linkedin-logo-transparent-linkedin-icon-transparent-free-free-png.png"
-            alt="" width="50px">
-
-    </a>
-
-
-
-
 </body>
-
-
 
 </html>
